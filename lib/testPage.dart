@@ -27,7 +27,7 @@ class _HomePageState extends State<HomePage> {
                 children: [
                   Text(
                     "Welcome back",
-                    style: TextStyle(fontSize: 25, color: Colors.white),
+                    style: TextStyle(fontSize: 25, color: Colors.white70),
                   ),
                   Text(
                     "Ajay",
@@ -43,7 +43,7 @@ class _HomePageState extends State<HomePage> {
             Padding(
               padding: EdgeInsets.only(right: 20),
               child: Text(
-                "Petras",
+                "Pet.ra",
                 style: TextStyle(fontSize: 30),
               ),
             )
@@ -277,7 +277,7 @@ class _HomePageState extends State<HomePage> {
                   hintText: "Search",
                   border: const OutlineInputBorder(
                     borderSide: BorderSide(color: Colors.white),
-                    borderRadius: BorderRadius.all(Radius.circular(15)),
+                    borderRadius: BorderRadius.all(Radius.circular(40)),
                   )),
             ),
           ),
@@ -311,6 +311,12 @@ class _HomePageState extends State<HomePage> {
                 BottomNavigationBarItem(
                     icon: Icon(
                       Icons.shopping_bag_rounded,
+                      size: 30,
+                    ),
+                    label: ""),
+                     BottomNavigationBarItem(
+                    icon: Icon(
+                      Icons.menu,
                       size: 30,
                     ),
                     label: ""),
